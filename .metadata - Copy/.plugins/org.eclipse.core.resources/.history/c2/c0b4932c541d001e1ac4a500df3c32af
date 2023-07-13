@@ -1,0 +1,18 @@
+package stringjoiner;
+
+import java.util.Scanner;
+
+public class StringJoiner {
+	public static void joiner(String a,String b)
+	{
+		System.out.print(a+","+b);
+	}
+	public static void main(String...args)
+	{
+		Scanner sc=new Scanner(System.in);
+		String a=sc.nextLine();
+		String b=sc.nextLine();
+		joiner(a,b);
+	}
+
+}

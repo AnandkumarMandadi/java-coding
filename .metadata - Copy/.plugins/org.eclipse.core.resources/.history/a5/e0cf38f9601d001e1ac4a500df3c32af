@@ -1,0 +1,20 @@
+package unicode;
+
+import java.util.Scanner;
+
+public class Unicode {
+	public static char unicode(char a)
+	{
+		return a;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	   Scanner sc=new Scanner(System.in);
+	   String c= sc.next();
+	   System.out.print("the ascii value of:"+c);
+	   sc.close();
+
+	}
+
+}

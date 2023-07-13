@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author manda
+ *
+ */
+module Stringjoiner {
+}
